@@ -2,7 +2,9 @@
 Dotnet/Mono Tool for creating TLS(HTTPS) Root and server certificates using OpenSSL via openSSL.NET Wrappers  
 including a direct upload functionality to the MC4ETH devices.  
 
-Dependencies:  
+OpenSLL shared libraries for Windows 32 Bit and linux and a matching precompiled version of openSSL.NET are included in "dependencies" direcory.  
+
+For modifications you may need to updatate these dependencies:  
 
 Nuget Newtonsoft.Json for DeviceCommunication via RPC:  
 Install-Package Newtonsoft.Json  
